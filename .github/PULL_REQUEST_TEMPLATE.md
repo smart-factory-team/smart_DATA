@@ -1,11 +1,3 @@
----
-name: PR 템플릿
-about: '완료한 기능 또는 개선 사항을 PR로 제출합니다.'
-title: "[PR] 000 작업 내용 요약"
-labels: ''
-assignees: ''
----
-
 ## ✨ Description 
 - 어떤 작업을 완료했는지 간략히 설명해 주세요.
 
