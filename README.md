@@ -3,7 +3,6 @@
 자동차 제조 공정 전반에서 발생할 수 있는 **설비 고장 및 품질 결함 탐지**를 위한  
 AI 기반 이상탐지/예측 모델링 결과를 정리한 통합 저장소입니다.
 
-<br> </br>
 
 ## 🎯 목적
 
@@ -11,7 +10,6 @@ AI 기반 이상탐지/예측 모델링 결과를 정리한 통합 저장소입�
 - 실제 스마트팩토리 환경을 가정하여, **현장 적용 가능성**을 고려한 모델링 수행
 - 향후 **이상 대응 에이전트**, **리포트 자동화** 등 서비스 확장을 위한 기반 마련
 
-<br></br>
 
 
 ## 📂 디렉토리 구조
@@ -42,17 +40,11 @@ README.md : 공정별 설명
 
 ```
 
-
-<br></br>
-
-
 ## ⚙️ 기술 스택
 
 - Python 3.10+, Google Colab 기반 개발
 - 주요 라이브러리: NumPy, Pandas, Scikit-learn, TensorFlow, Matplotlib
 - 이미지 기반 모델은 OpenCV, Torch 사용
-
-<br></br>
 
 
 ## 🔧 Git 브랜치 전략 및 커밋 컨벤션
@@ -74,7 +66,7 @@ README.md : 공정별 설명
 - `issue-number`: 연동된 이슈 번호
 - `short-description`: 작업 요약 (kebab-case)
 
-예시
+### 💡 브랜치 예시
 
 ```
 init/1/setup-project
@@ -83,8 +75,6 @@ fix/34/fix-threshold-error
 refactor/21/clean-preprocessing
 chore/99/update-readme
 ```
-
-<br></br> 
 
 ## ✏️ 커밋 메시지 컨벤션
 
@@ -109,6 +99,7 @@ chore/99/update-readme
 | ⬆️     | `:arrow_up:`           | 패키지 업그레이드 |
 | ⬇️     | `:arrow_down:`         | 패키지 다운그레이드 |
 
+
 ### 💡 커밋 예시
 
 ```
@@ -131,5 +122,3 @@ git commit -m "♻️ refactor: split preprocessing logic into modules"
 - 브랜치 및 커밋 단위를 작게 유지해 충돌 방지
 - GitHub Issues와 연동하여 작업 관리
 - 일부 협업 도구 (Gitmoji 플러그인 등)는 프로젝트에 설정되어 있음
-
-
