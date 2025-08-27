@@ -23,7 +23,6 @@ smart_DATA/
 ├── painting_surface_defect_classification/ # 도장 - 표면 결함 이미지 분류
 ├── painting_equipment_anomaly_detection/ # 도장 - 설비 이상 탐지
 ├── assembly_component_defect_detection/ # 의장 - 부품 결함 탐지
-├── agent_fault_chatbot/ # 에이전트 - 이상 대응 챗봇
 
 ```
 
